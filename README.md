@@ -1,7 +1,7 @@
 # mhayvine-capulong-summative-1-bmd2id2
 
-Project overview: What is your project? What does it do?
-Pogo is essentially a --. It repackages events advertisments found happening accross Auckaland, and showcases it on a centralized, student-designed platform. 
+Project overview:
+Pogo is essentially a personalized event discovery platform that focuses on helping users easily find and save local events tailored to their interests and accessibility needs. It repackages event advertisments found happening accross Auckaland, and showcases it on a centralized, student-designed platform. The platform is designed to make event browsing feel fun, exciting, and less intimidating and overwhelming for the user. 
 
 What problem does it solve, or what inspired it?
 This solution was prompted by a personal problem I had experienced. -
@@ -17,7 +17,7 @@ Any other Instructions
 
 Any known issues or limitations
 Coded screens 
-- Sign up
+- Create Account
 - Home 
 - Search 
 - Events [list the events]

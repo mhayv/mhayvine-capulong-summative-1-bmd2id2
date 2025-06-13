@@ -9,7 +9,7 @@
     --poster-purple: #B794F4;
     --raffle-red: #ED305D;
     --buzz-beam: #FFB400;
-   
+
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 body {
     margin: 0;
     color: var(--graphite-grid);
-    background-color:pink;
+    background-color: pink;
 }
 
 /*to make consistent space throughout screens*/
@@ -34,26 +34,42 @@ body {
 }
 
 h1 {
-font-family: "area-extended", sans-serif;
-font-weight: 800;
-font-style: bold;
+    font-family: "area-extended", sans-serif;
+    font-weight: 200;
+    font-style: bold;
 }
 
+/*logo only on home screen, so its ok to style like this*/
 .logo {
-    display : block;
+    display: block;
     height: 70px;
+     margin-bottom: 450px;
 }
 
+.top {
+    margin-bottom: 450px;
+}
 
-button {
-  display: block;
-  width: 100%;
-  padding: 1rem;
-  font-size: 1rem;
-  border: 4px solid var(--graphite-grid);
-  border-color: var(--dark-vinyl);
-  color: var(--dark-vinyl);
-  border-radius: 8px;
+/*first screen buttons, create and sign in*/
+.landbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 350px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-family: "area-extended", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    border: 4px solid var(--graphite-grid);
+    border-color: var(--dark-vinyl);
+    color: var(--dark-vinyl);
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 .buttonone {
