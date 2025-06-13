@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --frosted-glass: #ebeaf4;
+    --graphite-grid: #1E1E21;
+    --blue: #00B8D9;
+   
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    color: var(--graphite-grid);
+    background-color:pink;
+}
+
+/*to make consistent space throughout screens*/
+.container {
+    background-position: center;
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 1rem;
+    min-height: 100vh;
+    background: var(--frosted-glass);
+}
+
+h1 {
+font-family: "area-extended", sans-serif;
+font-weight: 800;
+font-style: bold;
+}
+
+.logo {
+    display : block;
+    height: 70px;
+}
+
+
+button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-color: var(--dark-vinyl);
+  color: var(--dark-vinyl);
+  border-radius: 8px;
+}
+
+.buttonone {
+    background-color: pink;
+}
