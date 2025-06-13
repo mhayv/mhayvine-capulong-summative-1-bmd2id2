@@ -5,7 +5,10 @@
 :root {
     --frosted-glass: #ebeaf4;
     --graphite-grid: #1E1E21;
-    --blue: #00B8D9;
+    --pool-tile: #00B8D9;
+    --poster-purple: #B794F4;
+    --raffle-red: #ED305D;
+    --buzz-beam: #FFB400;
    
 }
 
@@ -47,12 +50,16 @@ button {
   width: 100%;
   padding: 1rem;
   font-size: 1rem;
-  border: none;
+  border: 4px solid var(--graphite-grid);
   border-color: var(--dark-vinyl);
   color: var(--dark-vinyl);
   border-radius: 8px;
 }
 
 .buttonone {
-    background-color: pink;
+    background-color: var(--pool-tile);
+}
+
+.buttontwo {
+    background-color: var(--frosted-glass);
 }
