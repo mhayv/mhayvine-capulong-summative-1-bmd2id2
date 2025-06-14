@@ -33,17 +33,33 @@ body {
     background: var(--frosted-glass);
 }
 
-h1 {
+h1,
+h2 {
     font-family: "area-extended", sans-serif;
     font-weight: 200;
     font-style: bold;
 }
 
+h3,
+h4,
+h5 {
+    font-family: "ff-real-headline-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-family: "ff-tisa-sans-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 /*logo only on home screen, so its ok to style like this*/
 .logo {
     display: block;
     height: 70px;
-     margin-bottom: 450px;
+    margin-bottom: 450px;
 }
 
 .top {
