@@ -26,3 +26,5 @@ Uncoded Screens
 - Unlisted events 
 - Account
 - Home filters
+
+If there was more time, I would want to add more interests, develop all the screens, and choose mood filters that cover a wider group. I am also interested in a potential notification feature for saved events as they approach the date, and an event share / RSVP with friends to encourage friend groups to attend together. 
