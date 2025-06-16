@@ -313,3 +313,9 @@ a {
 .advance {
     background-color: var(--pool-tile)
 };
+
+/*home screen top links*/
+.toplink {
+    text-decoration: none;
+    color:#ED305D;
+}
