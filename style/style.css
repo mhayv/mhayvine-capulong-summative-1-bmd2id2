@@ -346,7 +346,7 @@ a {
 }
 
 .cards {
-  border: 2px solid var(--graphite-grid); /* 2px outline */
+  border: 2px solid var(--graphite-grid);
   border-radius: 10px;
   overflow: hidden;
   background-color: white;
@@ -360,9 +360,27 @@ a {
   display: block;
 }
 
-.color-band {
+.yellow-color-band {
   height: 8px;
-  background-color: var(--buzz-beam); /* or any other brand color */
+  background-color: var(--buzz-beam);
+  width: 100%;
+}
+
+.purple-color-band {
+  height: 8px;
+  background-color: var(--poster-purple);
+  width: 100%;
+}
+
+.blue-color-band {
+  height: 8px;
+  background-color: var(--pool-tile); 
+  width: 100%;
+}
+
+.pink-color-band {
+  height: 8px;
+  background-color: var(--raffle-red); 
   width: 100%;
 }
 
