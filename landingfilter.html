@@ -10,27 +10,82 @@
     <link rel="stylesheet" href="https://use.typekit.net/ftg4mxg.css">
 
 </head>
-<!--this is the sign up screen-->
+<!--this is the  landing filters screen-->
 <div class="container">
-    <!-- no nav, since this is the sign in flow
-    <header>
-        <nav>
 
-        </nav>
-    </header>-->
+    <header>
+        <div class="customizeheader">
+            <img src="assets/icons/filtericon.svg" alt="filter icon">
+            <h1>Customize your experience</h1>
+        </div>
+        <h4 class="gray">This will guide the top results, but other cool stuff could sneak in!</h4>
+    </header>
 
     <body>
         <main>
-            <div class="customizeheader">
-            <img src="assets/icons/filtericon.svg" alt="">
-            <h1 >Customize your experience</h1>
+            <div class="area">
+                <img src="assets/icons/locationicon.svg" alt="location pin icon">
+                <h4 class="filter-title">Area</h4>
             </div>
-            <h4 class="gray">This will guide the top results, but other cool stuff could sneak in!</h4>
 
-           
+            <div class="button-grid">
+                <button class="areafilter-btn" data-area="north">North Auckland</button>
+                <button class="areafilter-btn" data-area="west">West Auckland</button>
+                <button class="areafilter-btn" data-area="south">South Auckland</button>
+                <button class="areafilter-btn" data-area="east">East Auckland</button>
+            </div>
+
+            <div class="budget">
+                <img src="assets/icons/budgeticon.svg" alt="location pin icon">
+                <h4 class="filter-title">Budget</h4>
+            </div>
+
+            <div class="button-grid">
+                <button class="budgetfilter-btn">$</button>
+                <button class="budgetfilter-btn">$$</button>
+                <button class="budgetfilter-btn">$$$</button>
+            </div>
+
+            <div class="age">
+                <img src="assets/icons/accounticon.svg" alt="location pin icon">
+                <h4 class="filter-title">Age Range</h4>
+            </div>
+
+            <div class="button-grid">
+                <button class="agefilter-btn">15-19</button>
+                <button class="agefilter-btn">20-25</button>
+                <button class="agefilter-btn">26+</button>
+            </div>
+
+            <div class="interest">
+                <img src="assets/icons/interesticon.svg" alt="location pin icon">
+                <h4 class="filter-title">Interests</h4>
+            </div>
+
+            <div class="button-grid">
+                <button class="interestfilter-btn">wood</button>
+                <button class="interestfilter-btn">metal</button>
+                <button class="interestfilter-btn">natural</button>
+                <button class="interestfilter-btn">paint</button>
+                <button class="interestfilter-btn">paper</button>
+                <button class="interestfilter-btn">thread</button>
+                <button class="interestfilter-btn">sculpture</button>
+                <button class="interestfilter-btn">glass</button>
+                <button class="interestfilter-btn">ceramic</button>
+                <button class="interestfilter-btn">digital</button>
+                <button class="interestfilter-btn">animation</button>
+                <button class="interestfilter-btn">film</button>
+            </div>
+
+            <h6 class="divide">p</h6>
+
+            <div class="screenbutton">
+                <a href="createaccount.html" class="abutton">back</a>
+                <a href="home.html" class="abutton advance">next</a>
+            </div>
+
         </main>
         <!--no footer for now<footer>
-
         </footer>-->
         <script src="js/script.js" defer></script>
     </body>

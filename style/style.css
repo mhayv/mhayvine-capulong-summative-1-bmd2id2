@@ -122,7 +122,7 @@ a {
     background-color: #FBFBFF;
 }
 
-small buttons .button-row {
+.smallbutton .button-row {
     display: flex;
     justify-content: space-between;
     margin-top: auto;
@@ -159,14 +159,157 @@ small buttons .button-row {
 .gray {
     margin-top: 1px;
     color: #606060;
+    margin-bottom: 50px;
 }
 
 .customizeheader {
     margin-top: 50px;
     display: flex;
     font-size: 12px;
+    gap: 18px;
 }
 
-.customizeheader img {
-    margin-right: 15px;
+.filter-title {
+    font-family: "area-extended", sans-serif;
+    font-weight: 200;
+    font-style: bold;
 }
+
+.area {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.budget {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.age {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.interest {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+/*filter buttons*/
+/*area*/
+.areafilter-btn {
+    height: 38px;
+    width: 165px;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #606060;
+    background-color: white;
+    font-family: "ff-real-headline-pro", sans-serif;
+    color: var(--graphite-grid);
+    font-size: 1rem;
+    transition: 0.15s;
+}
+
+.areafilter-btn.active {
+    background-color: var(--buzz-beam);
+    border-color: var(--graphite-grid);
+}
+
+/*budget*/
+.budgetfilter-btn {
+    height: 38px;
+    width: 115px;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #606060;
+    background-color: white;
+    font-family: "ff-real-headline-pro", sans-serif;
+    color: var(--graphite-grid);
+    font-size: 1rem;
+    transition: 0.15s;
+}
+
+.budgetfilter-btn.active {
+    background-color: var(--poster-purple);
+    border-color: var(--graphite-grid);
+}
+
+/*age*/
+.agefilter-btn {
+    height: 38px;
+    width: 115px;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #606060;
+    background-color: white;
+    font-family: "ff-real-headline-pro", sans-serif;
+    color: var(--graphite-grid);
+    font-size: 1rem;
+    transition: 0.15s;
+}
+
+.agefilter-btn.active {
+    background-color: var(--pool-tile);
+    border-color: var(--graphite-grid);
+}
+
+/*interest*/
+.interestfilter-btn {
+    height: 38px;
+    width: 115px;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #606060;
+    background-color: white;
+    font-family: "ff-real-headline-pro", sans-serif;
+    color: var(--graphite-grid);
+    font-size: 1rem;
+    transition: 0.15s;
+}
+
+.interestfilter-btn.active {
+    background-color: var(--raffle-red);
+    border-color: var(--graphite-grid);
+}
+
+.divide {
+    color: var(--frosted-glass);
+}
+
+.abutton {
+    display: flex;
+    border-radius: 10px;
+    height: 45px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #373737;
+    background-color: white;
+    font-family: "ff-real-headline-pro", sans-serif;
+    color: var(--graphite-grid);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.screenbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 30px;
+}
+
+.create {
+    margin-top: 210px;
+}
+
+.advance {
+    background-color: var(--pool-tile)
+};
