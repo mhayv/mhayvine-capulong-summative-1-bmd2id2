@@ -314,8 +314,23 @@ a {
     background-color: var(--pool-tile)
 };
 
-/*home screen top links*/
+/*home screen top links, style isnt applying for some reason.. */
 .toplink {
     text-decoration: none;
     color:#ED305D;
+}
+.editfilters img {
+    height : 40px;
+}
+.editfilters {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.editfilters a {
+ border-radius: 10px;
+     border: 2px solid #373737;
+    background-color: white;
 }
