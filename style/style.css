@@ -334,3 +334,51 @@ a {
      border: 2px solid #373737;
     background-color: white;
 }
+
+
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cards {
+  border: 2px solid var(--graphite-grid); /* 2px outline */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.color-band {
+  height: 8px;
+  background-color: var(--buzz-beam); /* or any other brand color */
+  width: 100%;
+}
+
+.card-text {
+  padding: 0.75rem;
+  background-color: white;
+}
+
+.card-text h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card-text p {
+  margin: 0.25rem 0 0;
+  font-size: 0.875rem;
+  color: #606060;
+}
+
