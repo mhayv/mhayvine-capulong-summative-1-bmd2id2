@@ -122,8 +122,7 @@ a {
     background-color: #FBFBFF;
 }
 
-small buttons
-.button-row {
+small buttons .button-row {
     display: flex;
     justify-content: space-between;
     margin-top: auto;
@@ -145,14 +144,29 @@ small buttons
 
 .smallone {
     position: fixed;
-  bottom: 16px;
-  left: 16px;
+    bottom: 16px;
+    left: 16px;
     background-color: #fbfbfb;
 }
 
 .smalltwo {
     position: fixed;
-  bottom: 16px;
-  right: 16px;
+    bottom: 16px;
+    right: 16px;
     background-color: var(--pool-tile);
+}
+
+.gray {
+    margin-top: 1px;
+    color: #606060;
+}
+
+.customizeheader {
+    margin-top: 50px;
+    display: flex;
+    font-size: 12px;
+}
+
+.customizeheader img {
+    margin-right: 15px;
 }
