@@ -407,3 +407,49 @@ a {
     margin: 0 auto;
 }
 
+.black-color-band {
+  height:10px;
+  background-color: var(--graphite-grid);
+  width: 100%;
+}
+
+.eventtitle {
+   font-family: "ff-real-headline-pro", sans-serif; 
+}
+
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tags h5 {
+    background-color: var(--buzz-beam); 
+    color: var(--graphite-grid);
+    padding: 0.3rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    margin: 0;
+    font-family: "ff-real-headline-pro", sans-serif;
+    white-space: nowrap;
+}
+
+.yellow-btn {
+    height: 38px;
+    width: 115px;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #606060;
+    background-color: white;
+    font-family: "ff-real-headline-pro", sans-serif;
+    color: var(--graphite-grid);
+    font-size: 1rem;
+    transition: 0.15s;
+}
+
+.yellow-btn.active {
+    background-color: var(--buzz-beam);
+    border-color: var(--graphite-grid);
+}

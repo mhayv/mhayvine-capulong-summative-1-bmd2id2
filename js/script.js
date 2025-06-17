@@ -23,3 +23,15 @@ document.querySelectorAll('.interestfilter-btn').forEach(btn => {
     btn.classList.toggle('active');
   });
 });
+
+document.querySelectorAll('.yellow-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('active');
+
+    if (btn.classList.contains('active')) {
+      btn.textContent = 'event saved!';
+    } else {
+      btn.textContent = 'save event';
+    }
+  });
+});
