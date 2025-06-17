@@ -23,7 +23,7 @@ body {
 }
 
 main{
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 /*to make consistent space throughout screens*/
@@ -466,7 +466,8 @@ a {
 .bottom-nav {
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   height: 75px;
   width: 100%;
   max-width: 390px;
@@ -475,7 +476,7 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 0.5rem 0;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .nav-item {

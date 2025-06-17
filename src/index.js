@@ -9,7 +9,7 @@ document.querySelector("#posts").innerHTML = data.map(post =>
       <section class="information">
 
                 <h2 class="eventtitle">${post.title}</h2>
-                <h5>${post.date}</h5>
+                <h5>${post.date}, 12pm-4pm | ${post.area}</h5>
                 <div class="tags">
                     <h5>paint</h5>
                     <h5>BYO</h5>
