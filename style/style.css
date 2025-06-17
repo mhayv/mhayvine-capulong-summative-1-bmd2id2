@@ -408,6 +408,24 @@ a {
   color: #606060;
 }
 
+
+.image-wrapper {
+  position: relative; 
+  width: 100%;       
+}
+
+.topimage {
+  position: absolute;
+  top: 10px;    /* distance from top */
+  left: 10px;   /* distance from left */
+  z-index: 10;  /* to appear above image */
+}
+
+.topimage img {
+  height: 30px;  /* adjust size */
+  width: auto;
+}
+
 .eventimage {
     max-width: 100%;
     height: auto;
@@ -492,4 +510,11 @@ a {
 .sizes {
     height: 40px;
 }
+
+
+
+
+
+
+
 
