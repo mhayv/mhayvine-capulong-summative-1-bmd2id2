@@ -10,7 +10,6 @@ The key issue I along with the target audience faced were things like unreliable
 Main user flows / key features implemented 
 - Sign up user flow : customizing your experience 
 - Browse and Save user flow : keeping track of events that seems interesting for end user
-- Mood filters : further filters, based on moods and vibes.
 
 Any other Instructions
 //
@@ -18,13 +17,13 @@ Any other Instructions
 Any known issues or limitations
 Coded screens 
 - Create Account
-- Home 
-- Search 
-- Events [list the events]
+- Home [All, Interest Focused]
+- Events [Bird Sketching,     ]
 Uncoded Screens 
 - Sign in
+- Search
 - Unlisted events 
 - Account
 - Home filters
 
-If there was more time, I would want to add more interests, develop all the screens, and choose mood filters that cover a wider group. I am also interested in a potential notification feature for saved events as they approach the date, and an event share / RSVP with friends to encourage friend groups to attend together. 
+If there was more time, I would want to add more interests, fully develop all the screens, and choose mood filters that cover a wider group. I am also interested in a potential notification feature for saved events as they approach the date, and an event share / RSVP with friends to encourage friend groups to attend together. 
