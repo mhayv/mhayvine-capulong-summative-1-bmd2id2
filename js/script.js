@@ -1,5 +1,4 @@
 //filter button toggles
-
 document.querySelectorAll('.areafilter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     btn.classList.toggle('active');
@@ -24,6 +23,7 @@ document.querySelectorAll('.interestfilter-btn').forEach(btn => {
   });
 });
 
+//save event button action
 document.querySelectorAll('.yellow-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     btn.classList.toggle('active');

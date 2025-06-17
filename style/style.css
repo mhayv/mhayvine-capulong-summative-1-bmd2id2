@@ -22,6 +22,10 @@ body {
     background-color: pink;
 }
 
+main{
+    padding-bottom: 60px;
+}
+
 /*to make consistent space throughout screens*/
 .container {
     background-position: center;
@@ -354,6 +358,10 @@ a {
   flex-direction: column;
 }
 
+.a {
+    text-decoration: none;
+}
+
 .cards img {
   width: 100%;
   height: auto;
@@ -453,3 +461,34 @@ a {
     background-color: var(--buzz-beam);
     border-color: var(--graphite-grid);
 }
+
+/*bottom nav bar*/
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  max-width: 390px;
+  background-color: var(--frosted-glass);
+  border-top: 4px solid var(--graphite-grid);
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+  z-index: 1000; 
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--graphite-grid);
+  font-family: "ff-real-headline-pro", sans-serif;
+  font-size: 0.875rem;
+}
+
+.size {
+    height: 30px;
+}
+.sizes {
+    height: 40px;
+}
+
