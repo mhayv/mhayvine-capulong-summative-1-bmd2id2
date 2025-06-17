@@ -53,6 +53,8 @@ h5 {
     font-family: "ff-real-headline-pro", sans-serif;
     font-weight: 300;
     font-style: normal;
+    margin-top: 0;
+  margin-bottom: 0;
 }
 
 p {
@@ -509,6 +511,11 @@ a {
 }
 .sizes {
     height: 40px;
+}
+
+/*spacing between date and location in event screens*/
+.topspacing {
+    margin-top: 0px;
 }
 
 
