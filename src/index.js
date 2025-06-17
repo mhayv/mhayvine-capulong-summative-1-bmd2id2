@@ -21,7 +21,6 @@ document.querySelector("#posts").innerHTML = data.map(post =>
                     <h5>picnic</h5>
                 </div>
                 <p>${post.description}</p>
-                <p>| No RSVP required! | No Attendee Limit! | </p>
             </section>
     
     
