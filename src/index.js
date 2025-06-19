@@ -4,6 +4,7 @@ const { data, error } = await supabase
     .from('data')
     .select('*')
 
+
 document.querySelector("#posts").innerHTML = data.map(post =>
     `
       <section class="information">
