@@ -418,13 +418,13 @@ a {
 
 .topimage {
   position: absolute;
-  top: 10px;    /* distance from top */
-  left: 10px;   /* distance from left */
-  z-index: 10;  /* to appear above image */
+  top: 10px;   
+  left: 10px;   
+  z-index: 10; 
 }
 
 .topimage img {
-  height: 30px;  /* adjust size */
+  height: 30px;  
   width: auto;
 }
 
@@ -516,6 +516,21 @@ a {
 /*spacing between date and location in event screens*/
 .topspacing {
     margin-top: 0px;
+}
+
+.editfilterbutton {
+    display: flex;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #373737;
+    background-color: var(--pool-tile);
+    font-family: "ff-real-headline-pro", sans-serif;
+    color: var(--graphite-grid);
+    font-size: 15px;
+    text-decoration: none;
 }
 
 
