@@ -321,10 +321,35 @@ a {
 };
 
 /*home screen top links, style isnt applying for some reason.. */
-.toplink {
-    text-decoration: none;
-    color:#ED305D;
+
+
+.unpage {
+    color: #555558;
+    
 }
+
+.topnav {
+  display: flex;
+  gap: 1rem; 
+  margin-left: 10px;
+}
+
+.toplink {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--graphite-grid);
+}
+
+.toplink.unpage {
+  color: #747475;
+}
+
+/*line under active page*/
+.toplink.activepage {
+  border-bottom: 4px solid black; 
+}
+
+
 .editfilters img {
     height : 40px;
 }
