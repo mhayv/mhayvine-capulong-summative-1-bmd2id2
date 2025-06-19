@@ -19,7 +19,7 @@ html {
 body {
     margin: 0;
     color: var(--graphite-grid);
-    background-color: pink;
+    background-color: var(--frosted-glass);
 }
 
 main{
