@@ -319,28 +319,25 @@ a {
     background-color: var(--pool-tile)
 };
 
-/*home screen top links, style isnt applying for some reason.. */
-
-
+/*home screen top links */
 .unpage {
-    color: #555558;
-    
+    color: #6f6f71;   
+}
+.toplink.unpage {
+  color: #9d9d9d;
 }
 
 .topnav {
   display: flex;
   gap: 1rem; 
   margin-left: 10px;
+  margin-top: 15px;
 }
 
 .toplink {
   text-decoration: none;
   font-size: 1.1rem;
   color: var(--graphite-grid);
-}
-
-.toplink.unpage {
-  color: #747475;
 }
 
 /*line under active page*/
@@ -353,7 +350,7 @@ a {
     height : 40px;
 }
 .editfilters {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     gap: 10px;
     align-items: center;
