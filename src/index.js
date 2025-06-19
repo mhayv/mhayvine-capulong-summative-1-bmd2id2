@@ -22,6 +22,7 @@ document.querySelector("#posts").innerHTML = data.map(post =>
                     <h5>picnic</h5>
                 </div>
                 <p>${post.description}</p>
+                <h5> EVENT FEE : ${post.price}</h5>
             </section>
     
     
